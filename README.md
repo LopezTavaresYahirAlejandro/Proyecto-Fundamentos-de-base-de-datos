@@ -9,3 +9,13 @@ Elegi este proyecto por que siempre me ha llamado la atencion que hay detras de 
 Decidí desarrollar este proyecto para profundizar en el diseño de bases de datos orientadas a videojuegos online y entender cómo funcionan internamente los sistemas que soportan miles de jugadores simultáneamente. Me interesaba especialmente aprender cómo se gestionan las sesiones, cómo se distribuye la carga entre servidores y cómo se garantiza la disponibilidad mediante técnicas como la replicación y el sharding.
 
 Con este modelo busqué aplicar conceptos de bases de datos distribuidas y arquitectura backend, enfocándome en la escalabilidad, el rendimiento y la organización eficiente de la información. Más allá de cumplir un requisito académico, quise construir una estructura que simule un escenario real dentro de la industria del gaming.
+
+
+
+
+# Cambios y normalizacion del proyecto
+En este proyecto se realizó el diseño y la normalización de una base de datos utilizando diagramas E-R y UML. Inicialmente, se identificaron problemas como redundancia de datos y dependencias incorrectas, los cuales fueron corregidos mediante el proceso de normalización.
+
+Se aplicaron la Primera, Segunda y Tercera Forma Normal (1FN, 2FN y 3FN), logrando que cada tabla contenga datos atómicos, eliminando dependencias parciales y transitivas. Como resultado, se obtuvo una estructura más organizada, eficiente y libre de inconsistencias.
+
+Además, se elaboró un diccionario de datos que describe cada tabla y sus atributos, facilitando la comprensión y el mantenimiento de la base de datos.
